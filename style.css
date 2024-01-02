@@ -1,9 +1,14 @@
+@font-face {
+  font-family: signika;
+  src: url(Signika/Signika-VariableFont_GRAD\,wght.ttf);
+}
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Signika;
   border: 0px;
 }
+
 
 #home-main {
   height: 100vh;
@@ -25,8 +30,19 @@
   color: #000000;
   /* background-color: #fff; */
   margin-left: 10vw;
+  display: flex ;
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
+.log{
+  width: 2vw;
+  height: 3vh;
+  /* background-color: red ; */
+}
+.log img{
+  width: 100%;
+} 
 .nav-rightside {
   width: 30vw;
   /* background-color: #fff; */
@@ -61,6 +77,7 @@
 .hero-section-heading h1{
   font-weight: 500;
   font-size: 3.5vw;
+  line-height: 32px;
 }
 
 
@@ -73,11 +90,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0px
+  margin-top: 0px;
+  /* background-color: red; */
 }
 .hero-image{
   width: 45%;
-  margin-right: 8vw;
+  /* margin-right: 8vw; */
+  /* background-color: blue; */
 
 
 }
@@ -85,4 +104,31 @@
   height: 90%;
   width: 100%;
   object-fit: contain;
+}
+
+
+.image-part1{
+  width: 13vw;
+  
+  margin-bottom:37vh;
+  margin-right: 1vw;
+
+}
+
+.image-part1 img{
+  height: 100%;
+  width: 100%;
+}
+
+.image-part2{
+  width: 15vw;
+  margin-bottom:15vh;
+  
+  margin-left: 2vw;
+
+}
+
+.image-part2 img{
+  height: 100%;
+  width: 100%;
 }
