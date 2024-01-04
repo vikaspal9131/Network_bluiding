@@ -16,13 +16,13 @@
 
 }
 
-@keyframes motion {
+@keyframes rotate-motion {
   0%{
     
-    transform: rotate(180deg);
+    transform: rotate(0deg);
   }
   50%{
-    transform: rotate(0deg);
+    transform: rotate(180deg);
   }
   
   100%{
@@ -114,9 +114,8 @@
 .hero-section-heading h1{
   font-weight: 600;
   font-size: 3.5vw;
-
   line-height: 32px;
-  color: blueviolet;
+  color: #000000;
   margin-bottom: 3vh;
 }
 
@@ -167,7 +166,7 @@
 .image-part2{
   width: 15vw;
   margin-bottom:15vh;
-  animation: up-down-motion 6s infinite linear;
+  animation: up-down-motion 3s infinite linear;
   /* margin-left: 2vw; */
 
 }
@@ -182,7 +181,47 @@
   margin-left:10vh;
 }
 .image-part3 img{
-  animation: motion 120s infinite linear;
+  animation: rotate-motion 30s infinite linear;
   height: 100%;
   width: 100%;
+}
+
+.main-page02{
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+.company-secation{
+  height: 25vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.company-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-heading h2{
+  font-weight: 500;
+
+}
+.company-log-wraper{
+  height: 15vh;
+  width: 100%;
+  /* background: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.company-log{
+  width: 15%;
+  height: 10vh;
+  background-color: black;
 }
