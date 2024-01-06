@@ -241,3 +241,32 @@
 .company-log5 img{
   width: 10vw;
 }
+
+.recognition{
+  width: 100%;
+  height: 50vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.detail{
+  width: 40%;
+  height:50vh ;
+  background-color: blue;
+}
+.detail h1{
+  font-size: 3vw;
+  font-weight: 400;
+}
+.detail-image{
+  width: 30%;
+  height:50vh ;
+  background-color: blue;
+}
+.detail-btn button{
+  width: 8vw;
+  height: 6vh;
+  font-size: 1.2vw;
+}
