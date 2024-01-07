@@ -187,7 +187,7 @@
 }
 
 .main-page02{
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #ffffff;
 }
@@ -220,32 +220,27 @@
   align-items: center;
   justify-content: space-around;
 }
-/* .company-log2{
+ /* .company-log {
   width: 15%;
   height: 10vh;
-  background-color: rgb(255, 0, 0);
+   background-color: rgb(255, 0, 0);
   object-fit: cover;
-} */
-.company-log1 img{
+  background-origin: padding-box;
+}  */
+.company-log img{
   width: 10vw;
 }
-.company-log2 img{
-  width: 10vw;
+
+.company-log:hover{
+  border-bottom: 1px solid black;
+  transition: 200ms;
 }
-.company-log3 img{
-  width: 10vw;
-}
-.company-log4 img{
-  width: 10vw;
-}
-.company-log5 img{
-  width: 10vw;
-}
+
 
 .recognition{
   width: 100%;
   height: 50vh;
-  background-color: red;
+  margin-top: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -253,8 +248,11 @@
 
 .detail{
   width: 40%;
-  height:50vh ;
-  background-color: blue;
+  height:45vh ;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .detail h1{
   font-size: 3vw;
@@ -263,10 +261,83 @@
 .detail-image{
   width: 30%;
   height:50vh ;
-  background-color: blue;
+  background-color: #a1dbdac6;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .detail-btn button{
   width: 8vw;
   height: 6vh;
   font-size: 1.2vw;
+  border: 1px solid black;
+}
+
+.detail-btn button:hover{
+  background-color: black;
+  color: white;
+  transition: 500ms;
+}
+
+.detial-box{
+  width: 80%;
+  height: 90%;
+  margin-left: 70px;
+}
+
+.detial-box img{
+  width: 83%;
+  border-radius: 1vw;
+}
+.detail-collection{
+  height: 50vh;
+  width: 100%;
+  margin-top: 3vw;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.review{
+  width: 90%;
+  height: 70vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-evenly;
+ ;
+}
+.review-box{
+  width: 30%;
+  height: 70vh;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.review-box img{
+  width: 90%;
+  object-fit: cover;
+  border-radius: 1.2vw;
+}
+
+.review-box h3{
+  font-weight: 400;
+}
+.review-btn button{
+  width: 8vw;
+  height: 6vh;
+  font-size: 1.2vw;
+  /* border: 1px solid black; */
+  border-radius: 0.2vw;
+  background-color: #343799;
+  color: #ffffff;
+}
+.review-btn button:hover{
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+  transition: 300ms;
 }
