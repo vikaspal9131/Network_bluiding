@@ -31,10 +31,15 @@
   
 }
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Signika;
-  border: 0px;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -85,7 +90,7 @@
 }
 .nav-rightside button {
   background: transparent;
-  /* border: 1px solid black; */
+  border: none;
   border-radius: 5px;
   padding: 5px 20px ;
 }
@@ -531,4 +536,15 @@ font-weight: 500 ;
 .footer-image img{
   width: 60%;
 
+}
+
+.last-footer{
+
+  height: 3vh;
+  width: 95%;
+  /* background-color: red; */
+  display: flex;
+  justify-content:space-between;
+  margin-left: 30px;
+  padding: 2px;
 }
